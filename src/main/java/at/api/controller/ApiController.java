@@ -20,7 +20,7 @@ import at.api.service.MockService;
 @RestController
 @RequestMapping("/api")
 public class ApiController {
-	
+
 	@Autowired
 	private MockService mockService;
 
